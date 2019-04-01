@@ -7,7 +7,8 @@ $(document).ready(function(){
         var answer4 = $("input[name='question4']:checked").val();
         var answer5 = $("input[name='question5']:checked").val();
         var answer6 = $("input[name='question6']:checked").val();
- 
+        var answer7 = $("input[name='question7']:checked").val();
+
         var totalMarks = 0
 
         if (answer1 == $("#spn").val()) {
@@ -33,8 +34,18 @@ $(document).ready(function(){
         if (answer6 == $("#script").val()) {
             totalMarks++
         };
-         var total = (totalMarks/6) *100
 
-         document.querySelector("#answe").innerHTML = total
+        if (answer7 == $("#if").val()) {
+            totalMarks++
+        }
+         var total = (totalMarks/7) *100
+
+        if (total >= 80) {
+            document.querySelector("#answe").innerHTML = "Excellent work done, mate!"
+        } else if ( total >= 50 || total <= 79.999) {
+            document.querySelector("#answe").innerHTML = "AN average perfomance. not baad"
+        } el se if (total <= 49){
+            document.querySelector("#answe").innerHTML = "Low Perfomance, mate. Redo the quiz again"
+        }
     });
 });
