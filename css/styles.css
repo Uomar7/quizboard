@@ -28,6 +28,15 @@
     color: rgb(226, 223, 223)
 }
 .home{
-    background-image: url("../images/blue.jpg")
-    
+    background-image: url("../images/blue.jpg")  
+}
+p{
+    color: rgb(209, 205, 205);
+    font-size: 18px;
+}
+.test{
+    background-image: url("../images/ice.jpg")
+}
+.one{
+    color: black;
 }
