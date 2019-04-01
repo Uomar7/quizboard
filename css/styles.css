@@ -41,6 +41,10 @@ a{
 p{
     color: rgb(209, 205, 205);
     font-size: 18px;
+} 
+
+.test .jumbotron h1{
+    font-size: 80px;
 }
 .test{
     background-image: url("../images/ice.jpg");;
@@ -49,7 +53,4 @@ p{
 }
 .one{
     color: black;
-}
-h1{
-
 }

@@ -39,13 +39,15 @@ $(document).ready(function(){
             totalMarks++
         }
          var total = (totalMarks/7) *100
+        
+         document.querySelector("#answe").innerHTML = total
 
         if (total >= 80) {
-            document.querySelector("#answe").innerHTML = "Excellent work done, mate!"
-        } else if ( total >= 50 || total <= 79.999) {
-            document.querySelector("#answe").innerHTML = "AN average perfomance. not baad"
-        } el se if (total <= 49){
-            document.querySelector("#answe").innerHTML = "Low Perfomance, mate. Redo the quiz again"
+            $("#comments").text("Great performance, mate!")
+        } else if ( total >= 50 && total <= 79.999) {
+            $("#comments").text("An average performance mate, Keep up!")
+        } else if (total <= 49 || total == 0){
+            $("#comments").text("Poor performance mate, Redo the test!")
         }
     });
 });

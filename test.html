@@ -1,114 +1,131 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/script.js"></script>
-  <title>quizboard</title>
-</head>
+  <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/script.js"></script>
+        <title>quizboard</title>
 
-<body class="test">
-  <div class="container">
-    <div class="jumbotron">
-    <h1>Quiz Board</h1>
+  </head>
+
+  <body class="test">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Quiz Board</h1>
     
 
-    <p class="one">Do you have what it takes to be called a developer? For you to prove that
+        <p class="one">Do you have what it takes to be called a developer? For you to prove that
       take the test to know your brilliance</p>
 
-    <p class="one">Click below the start button to go to test</p>
-</div>
+        <p class="one">Click below the start button to go to test</p>
+      </div>
+
     <button id="button" name="Start">start</button>
 
     <ol>
       <div class="well" id="q1">
-        <li>What is not a block element?</li>
+            <li>What is not a block element?</li>
 
-        <label><input type="radio" name="question1" id="pg" value="paragraphs" required> Paragraphs</label><br>
-        <label><input type="radio" name="question1" id="dv" value="divs" required> Divs</label><br>
-        <label><input type="radio" name="question1" id="spn" value="span" required> Span</label>
+            <label><input type="radio" name="question1" id="pg" value="paragraphs" required> Paragraphs</label><br>
+            <label><input type="radio" name="question1" id="dv" value="divs" required> Divs</label><br>
+            <label><input type="radio" name="question1" id="spn" value="span" required> Span</label>
 
       </div>
 
       <div class="well" id="q2">
 
-        <li>Which data type represent a true or false statement?</li>
+            <li>Which data type represent a true or false statement?</li>
 
-        <label><input type="radio" name="question2" id="number" value="number" required> Number</label><br>
-        <label><input type="radio" name="question2" id="boolean" value="boolean" required> Boolean</label><br>
-        <label><input type="radio" name="question2" id="unidentified" value="unidentified" required> Unidentified
+            <label><input type="radio" name="question2" id="number" value="number" required> Number</label><br>
+            <label><input type="radio" name="question2" id="boolean" value="boolean" required> Boolean</label><br>
+            <label><input type="radio" name="question2" id="unidentified" value="unidentified" required> Unidentified
+      
       </div>
 
       <div class="well" id="q3">
 
-        <li>What does HTML stands for?</li>
+            <li>What does HTML stands for?</li>
 
-        <label><input type="radio" name="question3" id="HTML" value="html" required> Hyper Text Markup
+            <label><input type="radio" name="question3" id="HTML" value="html" required> Hyper Text Markup
           Language</label><br>
-        <label><input type="radio" name="question3" id="link" value="link" required> HyperText Markup Link</label><br>
-        <label><input type="radio" name="question3" id="spn" value="span" required> High Transmission Metadata
+            <label><input type="radio" name="question3" id="link" value="link" required> HyperText Markup Link</label><br>
+            <label><input type="radio" name="question3" id="spn" value="span" required> High Transmission Metadata
           Language</label>
 
       </div>
 
       <div class="well" id="q4">
-        <li>HTML tags are used to describe _______</li>
 
-        <label><input type="radio" name="question4" id="language" value="language" required> language</label> <br>
-        <label><input type="radio" name="question4" id="content" value="content" required> content</label><br>
-        <label><input type="radio" name="question4" id="definition" value="definition" required> definition</label>
+            <li>HTML tags are used to describe _______</li>
+
+            <label><input type="radio" name="question4" id="language" value="language" required> language</label> <br>
+            <label><input type="radio" name="question4" id="content" value="content" required> content</label><br>
+            <label><input type="radio" name="question4" id="definition" value="definition" required> definition</label>
 
       </div>
 
       <div class="well" id="q5">
-        <li>JavaScript is a _______ language</li>
 
-        <label><input type="radio" name="question5" id="script" value="script" required> scripting </label> <br>
-        <label><input type="radio" name="question5" id="application" value="application" required>
+            <li>JavaScript is a _______ language</li>
+
+            <label><input type="radio" name="question5" id="script" value="script" required> scripting </label> <br>
+            <label><input type="radio" name="question5" id="application" value="application" required>
           application</label><br>
-        <label><input type="radio" name="question5" id="programming" value="programming" required> programming </label>
+            <label><input type="radio" name="question5" id="programming" value="programming" required> programming </label>
 
       </div>
 
       <div class="well" id="q6">
 
-        <li>Inside wich HTML element do we put the javascript</li>
+            <li>Inside wich HTML element do we put the javascript</li>
 
-        <label><input type="radio" name="question6" id="js" value="js" required>Inside javascript tags</label><br>
-        <label><input type="radio" name="question6" id="scripting" value="scripting" required> Inside scripting
+            <label><input type="radio" name="question6" id="js" value="js" required>Inside javascript tags</label><br>
+            <label><input type="radio" name="question6" id="scripting" value="scripting" required> Inside scripting
           tag</label><br>
-        <label><input type="radio" name="question6" id="script" value="Script" required> Inside script tags</label>
+            <label><input type="radio" name="question6" id="script" value="Script" required> Inside script tags</label>
 
       </div>
 
       <div class="well" id="q7">
-      <li>Using _______ statement is how you test for a specific condition.</li>
 
-      <label><input type="radio" name="question7" id="select" value="select" required> select</label><br>
-      <label><input type="radio" name="question7" id="if" value="if" required> if</label><br>
-      <label><input type="radio" name="question7" id="switch" value="switch" required> switch</label>
+            <li>Using _______ statement is how you test for a specific condition.</li>
+
+            <label><input type="radio" name="question7" id="select" value="select" required> select</label><br>
+            <label><input type="radio" name="question7" id="if" value="if" required> if</label><br>
+            <label><input type="radio" name="question7" id="switch" value="switch" required> switch</label>
 
       </div>
-      <button type="submit" id="submit">submit</button>
+
+            <button type="submit" id="submit">submit</button>
     </ol>
-  </div>
 
-
-  <div class="well" id="ans">
-    Marks: <span id="answe"></span>
-  </div>
-
-
-  </div>
-
-  </div>
+      </div>
 
 
 
-  </div>
+          <div class="row">
+
+            <div class="col-md-4">
+              Marks: <span id="answe"></span>
+            </div>
+
+            <div class="col-md-8">
+              Comments <span id="comments"></span>
+            </div>
+  
+
+          </div>
+
+      </div>
+
+      </div>
+
+
+
+      </div>
 </body>
 
 </html>
