@@ -62,4 +62,34 @@ Marks{
 }
 .well{
     background-image: url(../images/sky.jpg);
+    display: none;
+    margin-top: 10px;
+    margin-left: -40px;
+
+}
+#button{
+    background-color: rgb(28, 30, 31);
+    font-size: 20px;
+    color: black;
+    border-radius: 3px;
+    background-image: url("../images/sky.jpg");
+    border: none;
+}
+#submit{
+    background-color: rgb(28, 30, 31);
+    font-size: 20px;
+    color: black;
+    border-radius: 3px;
+    background-image: url("../images/sky.jpg");
+    margin-top: 10px;
+    justify-content: center;
+    border: none;
+    margin-left: -40px;
+}
+#bottom{
+    margin-left: 15px;
+}
+#bottom1{
+    margin-left: 0px; 
+    width: 1000px;   
 }
