@@ -1,8 +1,16 @@
 .jumbotron{
     text-align: center;
-    font-family: 'Times New Roman'
-    
+    font-family: 'Times New Roman';
+    background-color: rgb(50, 96, 156);
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 45px;
+
 } 
+
+a{
+    color: rgb(218, 211, 211)
+}
 .names{
     text-align: center;
     color: rgb(247, 241, 241)
@@ -42,4 +50,6 @@ p{
 .one{
     color: black;
 }
+h1{
 
+}

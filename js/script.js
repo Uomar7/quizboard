@@ -33,5 +33,7 @@ $(document).ready(function(){
         if (answer6 == $("#script").val()) {
             totalMarks++
         };
+         var total = (totalMarks/6) *100;
+         alert(total);
     })
 })
