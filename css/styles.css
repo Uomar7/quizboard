@@ -35,8 +35,11 @@ p{
     font-size: 18px;
 }
 .test{
-    background-image: url("../images/ice.jpg")
+    background-image: url("../images/ice.jpg");;
+    background-position: cover;
+    background-size: cover;
 }
 .one{
     color: black;
 }
+
