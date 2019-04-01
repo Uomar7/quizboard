@@ -33,7 +33,8 @@ $(document).ready(function(){
         if (answer6 == $("#script").val()) {
             totalMarks++
         };
-         var total = (totalMarks/6) *100;
-         alert(total);
-    })
-})
+         var total = (totalMarks/6) *100
+
+         document.querySelector("#answe").innerHTML = total
+    });
+});
