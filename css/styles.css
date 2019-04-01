@@ -4,15 +4,30 @@
     
 } 
 .names{
+    text-align: center;
+    color: rgb(247, 241, 241)
     
 }
 .names input{
-    border-radius: 20px;
+    border-radius: 23px;
     margin-top: 240px;
-    color: rgb(219, 210, 198);
+    color: rgb(29, 27, 25);
     font-size: 26px;
     font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.buttonStart input{
+    border-radius: 17px;
+    text-align: center;
+    font-size: 22px;
+}
+.buttonStart{
+    text-align: center;
+    margin-top: 26px;
+    color: rgb(226, 223, 223)
 }
 .home{
-background-image: url("../images/blue.jpg")
+    background-image: url("../images/blue.jpg")
+    
 }
