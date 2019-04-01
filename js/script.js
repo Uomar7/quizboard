@@ -39,7 +39,7 @@ $(document).ready(function(){
             totalMarks++
         }
          var total = (totalMarks/7) *100
-        
+
          document.querySelector("#answe").innerHTML = total
 
         if (total >= 80) {
@@ -54,7 +54,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#button").click(function(){
         $(".well").slideDown();
-       
+
     });
-  
+
 });
