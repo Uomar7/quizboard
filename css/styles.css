@@ -1,7 +1,7 @@
 .jumbotron{
     text-align: center;
     font-family: 'Times New Roman';
-    background-color: rgb(50, 96, 156);
+    background-image: url(../images/sky.jpg);
     margin: 10px;
     border-radius: 20px;
     font-size: 45px;
@@ -53,4 +53,13 @@ p{
 }
 .one{
     color: black;
+}
+#comments{
+    font-size: 28px;
+}
+Marks{
+    font-size: 25px;
+}
+.well{
+    background-image: url(../images/sky.jpg);
 }
