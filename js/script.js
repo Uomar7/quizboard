@@ -38,9 +38,10 @@ $(document).ready(function(){
         if (answer7 == $("#if").val()) {
             totalMarks++
         }
-         var total = (totalMarks/7) *100
+         var total = ((totalMarks/7) *100).toFixed();
 
-         document.querySelector("#answe").innerHTML = total
+         $("#answe").text(total+"% ")
+        
 
         if (total >= 80) {
             $("#comments").text("Great performance, mate!")
