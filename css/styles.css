@@ -35,3 +35,28 @@
     text-decoration-line: none;
     color: rgb(49, 48, 48); 
 }
+
+.test{
+    background-image: url("../images/script.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.test .container .jumbotron{
+    background-image: url("../images/html.jpg");
+    background-size: cover;
+    color: rgb(56, 55, 55);
+    font-family: 'Times New Roman';
+}
+.test .container .jumbotron h1{
+    font-size: 100px;
+    text-align: center;
+}
+#button{
+    margin-bottom: 10px;
+}
+.test .well{
+    display: none;
+}
+#submit{
+    margin-left: -40px;
+}
