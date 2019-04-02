@@ -31,3 +31,7 @@
     text-align: center;
     margin-left: 127px;
 }
+.home .well .buttonStart button a{
+    text-decoration-line: none;
+    color: rgb(49, 48, 48); 
+}
