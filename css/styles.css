@@ -1,95 +1,16 @@
-.jumbotron{
-    text-align: center;
+.home .jumbotron{
     font-family: 'Times New Roman';
-    background-image: url(../images/sky.jpg);
-    margin: 10px;
-    border-radius: 20px;
-    font-size: 45px;
-
-} 
-
-a{
-    color: rgb(218, 211, 211)
+    text-align: center;
+    background-image:url(../images/matrix.jpg);
+    height: 500px;
+    padding-top: 110px;
 }
+
+.home .jumbotron h1{
+    font-size: 170px;   
+}
+
 .names{
-    text-align: center;
-    color: rgb(247, 241, 241)
-    
-}
-.names input{
-    border-radius: 23px;
-    margin-top: 240px;
-    color: rgb(29, 27, 25);
-    font-size: 26px;
-    font-family: 'Times New Roman';
-    text-align: center;
-}
+    justify-content: baseline;
 
-.buttonStart input{
-    border-radius: 17px;
-    text-align: center;
-    font-size: 22px;
-}
-.buttonStart{
-    text-align: center;
-    margin-top: 26px;
-    color: rgb(226, 223, 223)
-}
-.home{
-    background-image: url("../images/blue.jpg")  
-}
-p{
-    color: rgb(209, 205, 205);
-    font-size: 18px;
-} 
-
-.test .jumbotron h1{
-    font-size: 80px;
-}
-.test{
-    background-image: url("../images/ice.jpg");;
-    background-position: cover;
-    background-size: cover;
-}
-.one{
-    color: black;
-}
-#comments{
-    font-size: 28px;
-}
-Marks{
-    font-size: 25px;
-}
-.well{
-    background-image: url(../images/sky.jpg);
-    display: none;
-    margin-top: 10px;
-    margin-left: -40px;
-
-}
-#button{
-    background-color: rgb(28, 30, 31);
-    font-size: 20px;
-    color: black;
-    border-radius: 3px;
-    background-image: url("../images/sky.jpg");
-    border: none;
-}
-#submit{
-    background-color: rgb(28, 30, 31);
-    font-size: 20px;
-    color: black;
-    border-radius: 3px;
-    background-image: url("../images/sky.jpg");
-    margin-top: 10px;
-    justify-content: center;
-    border: none;
-    margin-left: -40px;
-}
-#bottom{
-    margin-left: 15px;
-}
-#bottom1{
-    margin-left: 0px; 
-    width: 1000px;   
 }
