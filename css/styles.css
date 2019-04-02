@@ -4,13 +4,30 @@
     background-image:url(../images/matrix.jpg);
     height: 500px;
     padding-top: 110px;
+    margin-bottom: 8%;
+    border-block-end-style: ridge
 }
-
 .home .jumbotron h1{
     font-size: 170px;   
 }
-
-.names{
-    justify-content: baseline;
-
+.home{
+    background-color: rgb(243, 240, 236)p
+}
+.home .well{
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria;
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
+    
+}
+.home .well input{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home .well .input-group {
+    text-align: center;
+    margin-left: 127px;
 }
